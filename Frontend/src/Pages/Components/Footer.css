@@ -1,0 +1,59 @@
+.footerPart1{
+    background-image: url('footer.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 60vh;
+    margin-top: 35vh;
+}
+
+.underfooter{
+    border-bottom: 2px solid white;
+    width: 60vw;
+    height: 35vh;
+    margin-left: 20vw;
+}
+
+.footerList1, .footerList2, .footerList3, .footerList4{
+    margin-top: 7vh;
+    float: left;
+    color: white;
+}
+
+.footerList2, .footerList3, .footerList4{
+    margin-left: 5vw;
+}
+
+.fl1, .fl2, .fl3, .fl4 {
+    margin-top: 1vh; 
+}
+
+.fl1 li, .fl2 li, .fl3 li, .fl4 li{
+    display: list-item;
+    margin-top: 1vh;    
+}
+
+.lastPartFooter{
+    margin-top: 2vh;
+    float: left;
+    color: white;
+}
+
+.lastFooterList li{
+    display: inline-block;
+    margin-left: 1vw;
+}
+
+.lastFooterList{
+    margin-left: 20vw;
+}
+
+.CopyrightPart{
+    float: left;
+    margin-left: 4vw;
+    color: white;
+    margin-top: 2vh;
+    margin-left: 7vw;
+    font-weight: bold;
+
+}

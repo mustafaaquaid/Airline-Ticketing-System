@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+}
+.Formpage_body{
+    background-image: url('Home_Background.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    min-height: 80vh;
+}
+
+.ticket_booking{
+    height: 39vh;
+    background-color: rgb(0,189,189, 0.4);
+    width: 50vw;
+    margin-left: 25vw;
+    border-radius: 2rem;
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#fName, #lName, #passportNo, #Age {
+    height: 6vh;
+    width: 20vw;
+    margin-top: 2vh;
+    margin-left: 0vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    border-radius: 1rem;
+    border-color: transparent;
+    margin-left: 1vw;
+}
+
+#bookIt{
+    margin-top: 2vh;
+    height: 6.6vh;
+    width: 16vw;
+    border-radius: 0.5rem;
+    background-color: #ffa903;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  1.5rem;
+    font-weight: 500;
+    color: teal;
+}
+
+.fromTo, .rem_details{
+    margin-left: 6vw;
+    width: 15vw;
+    float: left;
+    text-align: left;
+}
+
+.fromTo span, .rem_details span{
+    text-align: left;
+
+}
+
+.fromTo p, .rem_details p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin-top: 2vh;
+}
+
+.fromTo span, .rem_details span{
+    margin-left: 1vw;
+    padding-top: 0.9vh;
+    font-size: 24px;
+    font-family: 'Times New Roman', Times, serif;
+    color: #644f8b;
+}
+
+
+

@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+}
+
+.Header{
+    height: 50px;
+}
+
+.Header::before{
+    background-color: teal;
+    opacity: 100%;
+}
+
+.Logo{
+    float: left;
+    margin-left: 35vw;
+}
+
+.Links{
+    float: left;
+    margin-left: 150px;
+    margin-top: 25px;
+}
+
+.Logo h1{
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+}
+
+.Logo span{
+    font-size: 13px;
+    font-family: cursive;
+    font-style: italic;
+    font-weight: lighter;
+    margin-top: 0px;
+    margin-left: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    margin-left: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+    font-size: 20px;
+}

@@ -1,0 +1,147 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h3{
+    font-weight: 400;
+    color: #555555;
+    padding-top: 1vh;
+    padding-left: 1vw;
+}
+
+.C_in , .F_status{
+    padding-top: 2vh;
+    padding-left: 1vw;
+    height: 10vh;
+    width: 100%;
+}
+
+#passNo, #lname{
+    height: 6vh;
+    width: 20vw;
+    margin-top: 0.1vh;
+    margin-left: 0vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+#passNo{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: 2px solid teal;
+    border-right: none;
+}
+
+#lname{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 2px solid teal;
+}
+
+#from, #to{
+    height: 6vh;
+    width: 20vw;
+    margin-top: 0.1vh;
+    margin-left: 0vw;
+    font-weight: 400;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+}
+
+#from{
+    border-top-left-radius: 0.5rem;
+    border-bottom-left-radius: 0.5rem;
+    border: 2px solid teal;
+    border-right: none;
+}
+
+#to{
+    border-top-right-radius: 0.5rem;
+    border-bottom-right-radius: 0.5rem;
+    border: 2px solid teal;
+}
+
+#submit{
+    margin-left: 1.5vw;
+    height: 6.6vh;
+    width: 16vw;
+    border-radius: 0.5rem;
+    background-color: #ffa903;
+    border: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:  1.5rem;
+    font-weight: 500;
+    color: teal;
+}
+
+.Input_field{
+    float: left;
+
+}
+
+.submit_button{
+    float: left;
+    margin-top: 0.01rem;
+
+}
+
+.Pass_Data{
+    margin-top: 11vh;
+    margin-left: 2vw;
+    padding-left: 0vw;
+    height: 25vh;
+    width: 89%;
+    border-radius: 2rem;
+    background-color: rgba(25, 153, 228, 0.7);
+    align-content: center;
+}
+
+.Pass_Data div{
+    float: left;
+    margin-left: 220px;
+    margin-top: 3vh;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+
+.Pass_Data .StartingPoint{
+    margin-left: 2vw;
+}
+
+.Pass_Data .SecondPoint{
+    float: left;
+    margin-left: 17vw;
+}
+
+
+
+.Pass_Data h3{
+    font-size: 28px;
+    font-weight: 500;
+    color: white;
+}
+
+.Pass_Data_Negative{
+    margin-top: 11vh;
+    margin-left: 2vw;
+    padding-left: 0vw;
+    height: 10vh;
+    width: 89%;
+    border-radius: 2rem;
+    background-color: rgba(245, 57, 32, 0.7);
+    align-content: center;
+    font-weight: bolder;
+    font-size: 30px;
+    padding-top: 1vh;
+    text-align: center;
+}
+
+.Pass_Data .SecondPointF{
+    float: left;
+    margin-left: 10vw;
+}
